@@ -131,7 +131,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	})
 	.on('afterChange', function(event, slick){
 		wrapperSlider.slick.setOption({
-			swipe: true
+			swipe: true,
+			responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					swipe: false
+				}
+			}
+			]
 		})
 	});
 
