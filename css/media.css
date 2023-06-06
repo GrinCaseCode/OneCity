@@ -298,7 +298,7 @@
 		margin: 0;
 		margin-bottom: 20px;
 	}
-	.menu-mobile .btn-login {
+	.menu-mobile .btn-login:not(:hover) {
 		background: #e8e8e8;
 	}
 	.menu-mobile .header__location {
