@@ -299,27 +299,27 @@
 		margin-bottom: 20px;
 	}
 	.menu-mobile .btn-login {
-    background: #e8e8e8;
-}
-.menu-mobile .header__location {
-	margin-bottom: 10px;
-}
-.menu-mobile .header__mail,
-.menu-mobile .btn-login {
-	margin-bottom: 20px;
-}
-.menu-mobile .phone-wrap {
-	align-items: flex-start;
-}
-.descr-phone {
-	padding-right: 0;
-	padding-left: 9px;
-	margin-bottom: 0;
-	margin-top: 8px;
-}
-.menu-mobile .phone-wrap .btn-main i {
-	display: none;
-}
+		background: #e8e8e8;
+	}
+	.menu-mobile .header__location {
+		margin-bottom: 10px;
+	}
+	.menu-mobile .header__mail,
+	.menu-mobile .btn-login {
+		margin-bottom: 20px;
+	}
+	.menu-mobile .phone-wrap {
+		align-items: flex-start;
+	}
+	.descr-phone {
+		padding-right: 0;
+		padding-left: 9px;
+		margin-bottom: 0;
+		margin-top: 8px;
+	}
+	.menu-mobile .phone-wrap .btn-main i {
+		display: none;
+	}
 }
 
 
@@ -397,8 +397,12 @@
 	.slide-offer {
 		max-width: 250px;
 	}
+	.row_advantages {
+		margin: 0 -7px;
+	}
 	.row_advantages > div {
-		margin-bottom: 20px;
+		padding: 0 7px;
+		margin-bottom: 15px;
 	}
 	.slider-about {
 		padding: 20px;
@@ -466,6 +470,16 @@
 	.offers {
 		padding-bottom: 20px;
 	}
+	.item-advantage {
+		padding: 20px;
+		display: block;
+		height: auto;
+		min-height: 100%;
+	}
+	.item-advantage__icon {
+		margin: 0;
+		margin-bottom: 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -525,6 +539,99 @@
 	.offers-block {
 		max-width: 390px;
 	}
+	.row_advantages {
+		margin: 0 -4px;
+	}
+	.row_advantages > div {
+		padding: 0 4px;
+		margin-bottom: 10px;
+	}
+	.item-advantage {
+		padding: 15px;
+		font-size: 12px;
+		line-height: 17px;
+		border-radius: 10px;
+	}
+	.item-advantage__icon {
+    width: 54px;
+    height: 54px;
+    padding: 11px;
+}
+.item-tariff__head {
+    font-size: 16px;
+    line-height: 27px;
+        border-radius: 10px 10px 0px 0px;
+}
+.item-tariff {
+	font-size: 13px;
+	border-radius: 10px;
+}
+.icon-tariff {
+	margin-right: 8px;
+}
+.row_news > div,
+.row_tarrifs > div {
+	padding: 0 4px;
+	margin-bottom: 10px;
+}
+.row_news,
+.row_tarrifs {
+	margin: 0 -4px;
+}
+.list-tariff {
+    padding: 0 15px;
+}
+.price-main {
+    font-size: 28px;
+    line-height: 48px;
+    }
+    .price-main span {
+    font-size: 12px;
+    line-height: 16px;
+}
+.item-tariff .btn-main {
+	    font-size: 11px;
+    line-height: 15px;
+    height: 37px;
+	padding: 0 20px;
+}
+.consultation-block .title-section {
+    font-size: 22px;
+    line-height: 30px;
+}
+.item-news__image {
+    height: 100px;
+    border-radius: 10px;
+}
+.item-news__image img {
+	border-radius: 10px;
+}
+.item-news__content {
+    padding: 0 3px;
+    padding-top: 8px;
+}
+.item-news__title {
+    margin-bottom: 10px;
+    line-height: 19px;
+}
+.item-news::after {
+    bottom: 13px;
+    right: 17px;
+    width: 17px;
+    height: 10px;
+    }
+    .item-news {
+    	font-size: 13px;
+    padding-bottom: 39px;
+    border-radius: 10px;
+}
+.item-news__text {
+    font-size: 13px;
+    line-height: 17px;
+    }
+    .news {
+    	padding-bottom: 28px;
+    }
 }
 
 /* Custom, iPhone Retina */
