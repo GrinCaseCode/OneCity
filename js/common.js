@@ -115,15 +115,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	$('.slider-inner').on('mousedown', function(){
 		wrapperSlider.slick.setOption({
-			swipe: true,
-			responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					swipe: false
-				}
-			}
-			]
+			swipe: false,
 		})
 	})
 
@@ -139,17 +131,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	})
 	.on('afterChange', function(event, slick){
 		wrapperSlider.slick.setOption({
-			swipe: true,
-			responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					swipe: false
-				}
-			}
-			]
+			swipe: true
 		})
 	});
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
