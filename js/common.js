@@ -114,9 +114,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 	$('.slider-inner').on('mousedown', function(){
-		wrapperSlider.slick.setOption({
-			swipe: false,
-		})
+		{
+			if ($(window).width() > 992) { 
+				wrapperSlider.slick.setOption({
+					swipe: false,
+				})
+			}
+		}
 	})
 
 	$('.slider-inner').slick({
@@ -130,10 +134,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-arrow-right"></i><div/>',
 	})
 	.on('afterChange', function(event, slick){
-		wrapperSlider.slick.setOption({
-			swipe: true
-		})
+		{
+			if ($(window).width() > 992) { 
+				wrapperSlider.slick.setOption({
+					swipe: true
+				})	
+			}
+		}
 	});
+
+
+
+
 
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
