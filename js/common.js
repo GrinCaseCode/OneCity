@@ -115,7 +115,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	$('.slider-inner').on('mousedown', function(){
 		wrapperSlider.slick.setOption({
-			swipe: false
+			swipe: true,
+			responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					swipe: false
+				}
+			}
+			]
 		})
 	})
 
