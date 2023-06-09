@@ -134,6 +134,56 @@
 	.header.nav-up {
 		transform: translateY(-140px);
 	}
+	.article-content h1 {
+		font-size: 27px;
+		line-height: 37px;
+		margin-bottom: 25px;
+		max-width: 545px;
+	}
+	.item-contact__title {
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.item-contact {
+		padding-left: 40px;
+		margin-bottom: 50px;
+	}
+	.block-form {
+		padding: 17px 20px;
+		padding-bottom: 25px;
+	}
+	.title-block {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.block-form .title-block {
+		padding-bottom: 12px;
+	}
+	.item-contact > span {
+		font-size: 13px;
+	}
+	.unit-tarif__head {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 12px;
+}
+.unit-tarif__content {
+    padding: 15px 20px;
+}
+.title-middle {
+    font-size: 18px;
+    line-height: 26px;
+    }
+    .unit-tarif__descr {
+    line-height: 18px;
+    max-width: 125px;
+    font-size: 13px;
+}
+.section-text h2 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -320,6 +370,38 @@
 	.menu-mobile .phone-wrap .btn-main i {
 		display: none;
 	}
+	.article {
+		padding-bottom: 60px;
+	}
+	.block-form {
+		padding: 17px 65px;
+		padding-bottom: 25px;
+	}
+	.block-form .checkbox {
+		justify-content: center;
+	}
+	.item-contact {
+		margin-bottom: 30px;
+	}
+	.section-text h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+.section-text p {
+	margin-bottom: 15px;
+}
+.tariffs-wrapper {
+	padding-left: 0;
+}
+.image-tariff {
+	padding: 15px;
+}
+.tariffs-wrapper .unit-tarif__head {
+	    border-top-left-radius: 26px;
+}
+.tariffs-wrapper .unit-tarif__content {
+	padding-left: 25px;
+}
 }
 
 
@@ -480,6 +562,36 @@
 		margin: 0;
 		margin-bottom: 15px;
 	}
+	.prev.page-numbers, .next.page-numbers {
+		width: 36px;
+		height: 36px;
+		font-size: 14px;
+	}
+	.pager {
+		height: 36px;
+		margin-top: 10px;
+	}
+	.article-content h1 {
+		font-size: 23px;
+		line-height: 34px;
+		margin-bottom: 20px;
+	}
+	.page-contacts .title-section {
+		padding-bottom: 20px;
+	}
+	.item-contact {
+		margin-bottom: 23px;
+	}
+	.row_main > div {
+		margin-bottom: 25px;
+	}
+	.page-tariffs .title-section {
+    padding-bottom: 15px;
+}
+.tariffs-wrapper .unit-tarif__content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -638,6 +750,55 @@
 		font-size: 22px;
 		line-height: 34px;
 	}
+	.article-content h1 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+	.article {
+		padding-bottom: 45px;
+	}
+	.block-form {
+		padding: 18px 30px;
+		padding-bottom: 25px;
+	}
+	.unit-tarif__head {
+    font-size: 18px;
+    line-height: 33px;
+    padding: 10px;
+        border-radius: 15px 15px 0px 0px;
+}
+.unit-tarif {
+	border-radius: 15px;
+}
+.unit-tarif__content {
+    padding: 15px 15px;
+}
+.unit-tarif__bottom {
+	flex-wrap: wrap;
+}
+.unit-tarif__descr {
+	width: 100%;
+	margin-bottom: 7px;
+	max-width: initial;
+}
+.section-text {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.section-text h2 {
+    font-size: 15px;
+    line-height: 24px;
+}
+.tariffs-wrapper .unit-tarif__head {
+	    border-top-left-radius: 15px;
+}
+.tariffs-wrapper .unit-tarif__content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.tariffs-wrapper {
+	margin-bottom: 15px;
+}
 }
 
 /* Custom, iPhone Retina */
