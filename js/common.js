@@ -169,7 +169,6 @@ $('.slider-history').slick({
 		{
 			breakpoint: 480,
 			settings: {
-				adaptiveHeight: true,
 				slidesToShow: 1,
 			}
 		}
