@@ -184,6 +184,53 @@
 		line-height: 26px;
 		margin-bottom: 15px;
 	}
+	.about-info {
+		padding: 80px 40px;
+		padding-right: 130px;
+	}
+	.image-about img {
+		max-width: 440px;
+	}
+	.page-about {
+		padding-bottom: 200px;
+	}
+	.title-page {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.item-history {
+		font-size: 13px;
+		line-height: 18px;
+		padding-right: 20px;
+	}
+	.item-history__year {
+		font-size: 27px;
+		line-height: 35px;
+	}
+	.item-document__image {
+		padding: 20px;
+		height: 270px;
+	}
+	.item-document {
+		margin-bottom: 28px;
+	}
+	.item-rule {
+		padding: 38px 40px;
+		padding-bottom: 40px;
+		padding-right: 28px;
+	}
+	.rule-note {
+		padding: 45px 25px;
+	}
+	.item-rule .title-block {
+		padding-bottom: 15px;
+	}
+	.rule-note .title-block {
+		padding-bottom: 23px;
+	}
+	.item-rule_main {
+		padding: 32px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -405,6 +452,36 @@
 	.tariffs-wrapper .unit-tarif__content {
 		padding-left: 25px;
 	}
+	.slider-history .slick-prev {
+		left: -43px;
+	}
+	.page-about {
+		padding-bottom: 50px;
+	}
+	.about-block {
+		margin-top: 0;
+	}
+	.image-about {
+		margin-top: 20px;
+		display: block;
+	}
+	.image-about img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.about-info {
+		padding: 55px 40px;
+		padding-right: 80px;
+	}
+	.item-document__image {
+		height: 350px;
+	}
+	.col_pl {
+		padding-left: 15px;
+	}
+	.rule-note {
+		margin-bottom: 25px;
+	}
 }
 
 
@@ -594,6 +671,40 @@
 	.tariffs-wrapper .unit-tarif__content {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.slider-history::before {
+		height: 21px;
+		left: 24px;
+		right: 25px;
+	}
+	.slider-history .slick-prev {
+		left: -10px;
+	}
+	.slider-history {
+		padding-left: 20px;
+	}
+	.about-info .title-block {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.about-block {
+		margin-bottom: 10px;
+	}
+	.page-about {
+		padding-bottom: 30px;
+	}
+	.title-page {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.item-document__image {
+		height: 290px;
+	}
+	.item-rule_main {
+		line-height: 20px;
+	}
+	.rule-note .title-block {
+		padding-bottom: 18px;
 	}
 }
 
@@ -802,8 +913,64 @@
 	.tariffs-wrapper {
 		margin-bottom: 15px;
 	}
+	.title-page {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.page-about .title-section {
+		padding-bottom: 15px;
+	}
+	.item-history__year {
+		display: block;
+		text-align: center;
+	}
+	.about-info {
+		padding: 35px 20px;
+		padding-right: 40px;
+		border-radius: 15px 100px 100px 15px;
+	}
+	.about-info .title-block {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.item-document__image {
+		height: auto;
+		padding: 11px;
+		border-radius: 10px;
+	}
+	.row_documents {
+		margin: 0 -10px;
+	}
+	.row_documents > div {
+		padding: 0 10px;
+	}
+	.item-document {
+		font-size: 13px;
+		line-height: 18px;
+		margin-bottom: 22px;
+	}
+	.item-rule {
+		padding: 25px 20px;
+		border-radius: 15px;
+	}
+	.item-rule_main {
+		padding: 20px;
+	}
+	.rule-note {
+		padding-bottom: 30px;
+		border-radius: 15px;
+	}
+	.row_rules > div {
+		margin-bottom: 25px;
+	}
+	.page-rules .title-middle {
+		padding-bottom: 22px;
+	}
+	.rule-note {
+		margin-bottom: 20px;
+	}
 }
-
+ 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
