@@ -231,6 +231,17 @@
 	.item-rule_main {
 		padding: 32px;
 	}
+
+	.install-block {
+		padding: 38px 85px;
+		min-height: 350px;
+	}
+	.install-block__buttons {
+		padding-top: 31px;
+	}
+	.item-advantage .title-middle {
+		font-size: 16px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -482,6 +493,14 @@
 	.rule-note {
 		margin-bottom: 25px;
 	}
+
+	.install-block {
+		padding: 38px 30px;
+		padding-top: 25px;
+	}
+	.install-block .title-section {
+		margin-bottom: 15px;
+	}
 }
 
 
@@ -705,6 +724,23 @@
 	}
 	.rule-note .title-block {
 		padding-bottom: 18px;
+	}
+
+	.advantages_tariffs {
+		padding-top: 25px;
+	}
+	.advantages .title-section {
+		padding-bottom: 20px;
+	}
+	.install-block__buttons {
+		padding-top: 5px;
+		flex-direction: column;
+	}
+	.install-block__buttons .btn-main {
+		margin-top: 20px;
+	}
+	.billbord_tv {
+		padding-bottom: 10px;
 	}
 }
 
@@ -969,8 +1005,23 @@
 	.rule-note {
 		margin-bottom: 20px;
 	}
+
+	.item-advantage .title-middle {
+		font-size: 15px;
+	}
+	.install-block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.install-block .title-section {
+		font-size: 21px;
+		line-height: 33px;
+	}
+	.tariffs-install {
+		padding: 30px 0;
+	}
 }
- 
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
